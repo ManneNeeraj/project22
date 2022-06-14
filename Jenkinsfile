@@ -14,7 +14,7 @@ pipeline {
 	   }
 	   stage('Run Image') {
 	        steps {
-	        sh 'sudo docker run -d -p 5000:4000 --name chukka mynlpmodel:v1'
+	        sh 'sudo docker run -d -p 5100:4000 --name chukkaOne mynlpmodel:v1'
 	        }
 	   }
 	   stage('Testing'){
