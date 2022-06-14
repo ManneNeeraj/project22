@@ -24,7 +24,7 @@ pipeline {
 	   }
 	   stage('LAST'){
 	        steps {
-	            echo 'em cheyale'
+	            echo 'sooridu'
 	            }
 	   }	    
     }
