@@ -19,8 +19,13 @@ pipeline {
 	   }
 	   stage('Testing'){
 	        steps {
-	            echo 'Testing..'
+	            echo 'Testing.'
 	            }
 	   }
+	   stage('LAST'){
+	        steps {
+	            echo 'em cheyale'
+	            }
+	   }	    
     }
 }
